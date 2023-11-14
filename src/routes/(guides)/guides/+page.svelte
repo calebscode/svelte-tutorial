@@ -3,7 +3,6 @@
 
 
 <div class="guides">
-  <a class="home" href='/'>Home</a>
   <ul>
     <li><a href='/'>Guide 1</a></li>
     <li><a href='/'>Guide 2</a></li>
@@ -13,13 +12,9 @@
 
 <style>
   .guides {
-    text-align: center;
+    padding-left: 20px;
     display: block;
     margin: 20px auto;
-  }
-
-  h2 {
-    text-align: center;
   }
 
   ul {

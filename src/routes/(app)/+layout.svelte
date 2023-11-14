@@ -1,5 +1,5 @@
 <script>
-  import '../styles/global.css'
+  import '../../styles/global.css'
   import Title from '$lib/title.svelte'
 </script>
 
@@ -7,7 +7,7 @@
   <Title title="Caleb's Gaming Guides"/>
 </header>
 <main>
-  <slot><!-- optional fallback --></slot>
+  <slot />
 </main>
 <footer>
   <p>Copyright 2023 Caleb's Gaming Guides</p>
