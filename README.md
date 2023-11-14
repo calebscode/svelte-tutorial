@@ -1,38 +1,8 @@
-# create-svelte
+# Example "Gaming Guides" Single-Page-App built with SvelteKit
+- I am building this to learn SvelteKit as a way to triangulate my knowledge of other frameworks.
+- The video series I am following is from Net Ninja on YouTube <a href="https://www.youtube.com/watch?v=9OlLxkaeVvw&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP">found here</a>.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+# Running the project
+1. Clone the repo or download the source from GitHub
+2. `cd` into the root directory and run `npm install` to get all dependencies (recent Node version required)
+3. Run `npm run dev` to start the app locally. Svelte will find an open port and give you a link in the terminal.
