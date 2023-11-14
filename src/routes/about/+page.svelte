@@ -1,10 +1,8 @@
 <script>
-  import Title from '$lib/title.svelte'
 </script>
 
-<Title title="About Caleb's Gaming"/>
 <div class="about">
-  <h2>About This Web App</h2>
+  <h2>About Us</h2>
   <a href='/'>Home</a>
 
   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis dolores,

@@ -1,11 +1,8 @@
 <script>
-  import Title from '$lib/title.svelte'
 </script>
 
-<Title title="Caleb's Guides"/>
 
 <div class="guides">
-  <h2>Video Game Guides</h2>
   <a class="home" href='/'>Home</a>
   <ul>
     <li><a href='/'>Guide 1</a></li>
@@ -15,6 +12,12 @@
 </div>
 
 <style>
+  .guides {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+  }
+
   h2 {
     text-align: center;
   }
