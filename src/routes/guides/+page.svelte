@@ -1,4 +1,8 @@
-<script></script>
+<script>
+  import Title from '$lib/title.svelte'
+</script>
+
+<Title title="Caleb's Guides"/>
 
 <div class="guides">
   <h2>Video Game Guides</h2>

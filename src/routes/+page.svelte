@@ -1,9 +1,9 @@
 <script>
-  let title = "Caleb's Game Guides"
+  import Title from '$lib/title.svelte'
 </script>
 
+<Title title="Caleb's Gaming Guides"/>
 <div class="index">
-  <h2>{title}</h2>
   <a href="/about">About</a>
   <a href="/guides">Guides</a>
   <p>Explore a bunch of guides written by Caleb as a demo app using Svelte and SvelteKit!</p>
